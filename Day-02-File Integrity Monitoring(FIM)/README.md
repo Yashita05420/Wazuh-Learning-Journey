@@ -1,0 +1,46 @@
+# Day 2 – File Integrity Monitoring (FIM)
+
+## Objective
+
+Configure File Integrity Monitoring (FIM) in Wazuh and verify that file changes generate alerts.
+
+## Lab Environment
+
+- Wazuh Manager
+- Ubuntu
+- Wazuh Agent
+
+## Steps Performed
+
+1. Verified File Integrity Monitoring was enabled.
+2. Selected a directory to monitor.
+3. Created a new file.
+4. Modified the file.
+5. Deleted the file.
+6. Observed alerts in the Wazuh Dashboard.
+
+## Detection Results
+
+Wazuh successfully detected:
+- File Created
+- File Modified
+- File Deleted
+
+
+## Key Learning
+
+- Learned how Wazuh monitors file system changes.
+- Understood how FIM helps detect unauthorized modifications.
+- Verified that file events are logged and visible in the Wazuh dashboard.
+
+  ## Progress
+
+| Day | Topic | Status |
+|------|-------|--------|
+| Day 1 | Wazuh Installation | ✅ |
+| Day 2 | File Integrity Monitoring | ✅ |
+| Day 3 | Suricata Integration | ⏳ |
+| Day 4 | Auditd Monitoring | ⏳ |
+| Day 5 | SSH Brute Force Detection | ⏳ |
+| Day 6 | Active Response | ⏳ |
+| Day 7 | Sysmon Integration | ⏳ |
